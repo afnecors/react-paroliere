@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #21348a;
     font-size: 7.0vmin;;
 }
 
@@ -43,5 +43,5 @@ body {
     border-radius: .2em;
     padding: .5em;
     cursor: grab;
-    box-shadow: 0 .2em .6em #000;
+    box-shadow: 0 .2em .6em #222;
 }
