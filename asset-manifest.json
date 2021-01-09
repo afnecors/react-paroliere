@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-paroliere/static/css/main.b8421a36.chunk.css",
-    "main.js": "/react-paroliere/static/js/main.7e91e773.chunk.js",
-    "main.js.map": "/react-paroliere/static/js/main.7e91e773.chunk.js.map",
+    "main.css": "/react-paroliere/static/css/main.f67b4b50.chunk.css",
+    "main.js": "/react-paroliere/static/js/main.60fbc4fb.chunk.js",
+    "main.js.map": "/react-paroliere/static/js/main.60fbc4fb.chunk.js.map",
     "runtime-main.js": "/react-paroliere/static/js/runtime-main.abfea780.js",
     "runtime-main.js.map": "/react-paroliere/static/js/runtime-main.abfea780.js.map",
-    "static/js/2.8824c905.chunk.js": "/react-paroliere/static/js/2.8824c905.chunk.js",
-    "static/js/2.8824c905.chunk.js.map": "/react-paroliere/static/js/2.8824c905.chunk.js.map",
+    "static/js/2.eb1711e2.chunk.js": "/react-paroliere/static/js/2.eb1711e2.chunk.js",
+    "static/js/2.eb1711e2.chunk.js.map": "/react-paroliere/static/js/2.eb1711e2.chunk.js.map",
     "static/js/3.f6844a2c.chunk.js": "/react-paroliere/static/js/3.f6844a2c.chunk.js",
     "static/js/3.f6844a2c.chunk.js.map": "/react-paroliere/static/js/3.f6844a2c.chunk.js.map",
     "index.html": "/react-paroliere/index.html",
-    "static/css/main.b8421a36.chunk.css.map": "/react-paroliere/static/css/main.b8421a36.chunk.css.map",
-    "static/js/2.8824c905.chunk.js.LICENSE.txt": "/react-paroliere/static/js/2.8824c905.chunk.js.LICENSE.txt"
+    "static/css/main.f67b4b50.chunk.css.map": "/react-paroliere/static/css/main.f67b4b50.chunk.css.map",
+    "static/js/2.eb1711e2.chunk.js.LICENSE.txt": "/react-paroliere/static/js/2.eb1711e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.abfea780.js",
-    "static/js/2.8824c905.chunk.js",
-    "static/css/main.b8421a36.chunk.css",
-    "static/js/main.7e91e773.chunk.js"
+    "static/js/2.eb1711e2.chunk.js",
+    "static/css/main.f67b4b50.chunk.css",
+    "static/js/main.60fbc4fb.chunk.js"
   ]
 }
