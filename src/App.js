@@ -12,7 +12,37 @@ function Face(props) {
     );
 }
 
+class Timer extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            start: 1
+        }
+    }
+
+    endGame() {
+        this.setState({
+            start: 0
+        });
+    }
+
+    render() {
+        return (
+            <div className="timer-container">
+                <div className="timer" onAnimationEnd={this.endGame.bind(this)} start={this.state.start}></div>
+            </div>
+        );
+    }
+
+}
+
 class App extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
 
     shuffle(dice) {
         var j, x, i;
@@ -26,17 +56,18 @@ class App extends React.Component {
     }
 
     newGame() {
-        this.forceUpdate();
+        this.setState({});
     }
 
     render() {
         return (
             <div id="container">
                 <div className="wrapper" onClick={this.newGame.bind(this)}>
-                    {this.shuffle(dice_list).map(dice => (
-                        <Face dice={dice} />
+                    {this.shuffle(dice_list).map( (dice, i) => (
+                        <Face key={i} dice={dice} />
                     ))}
                 </div>
+                <Timer key={new Date().getTime()} />
             </div>
         );
     }

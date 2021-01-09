@@ -45,3 +45,28 @@ body {
     cursor: grab;
     box-shadow: 0 .2em .6em #222;
 }
+
+@keyframes timer_animation {  
+      from { width: 0%; }  
+      to { width: 100%; }   
+  } 
+
+.timer-container {
+    width: 100%;
+    height: auto;
+    border-radius: .2em;
+    background-color: rgba(76,211,64, .2);
+}
+
+.timer {
+    height: .25em;
+    margin-top: .5em;
+    background: rgba(76,211,64, 1.0);
+    border-radius: .2em;
+}
+
+.timer[start='1'] {
+    animation-name: timer_animation;
+    animation-duration: 180.0s;
+    animation-timing-function: linear; 
+}
